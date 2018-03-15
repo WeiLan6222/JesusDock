@@ -1,0 +1,24 @@
+2018/03/15 03:52:41 [error] 8#8: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/apiato/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/apiato/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0" while reading response header from upstream, client: 172.23.0.1, server: apiato.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "apiato.test"
+2018/03/15 05:08:42 [error] 8#8: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/apiato/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/apiato/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0" while reading response header from upstream, client: 172.23.0.1, server: apiato.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "apiato.test"
+2018/03/15 05:08:44 [error] 8#8: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/apiato/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/apiato/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0" while reading response header from upstream, client: 172.23.0.1, server: apiato.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "apiato.test"
+2018/03/15 05:08:47 [error] 8#8: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/apiato/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/apiato/public/../vendor/autoload.php' (include_path='.:/usr/local/lib/php') in /var/www/apiato/public/index.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/apiato/public/index.php:0" while reading response header from upstream, client: 172.23.0.1, server: apiato.test, request: "GET / HTTP/1.1", upstream: "fastcgi://172.23.0.4:9000", host: "apiato.test"
